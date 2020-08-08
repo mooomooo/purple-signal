@@ -28,7 +28,7 @@ add_library(${TARGET_NAME} SHARED ${SRC_LIST})
 #add_executable(${TARGET_NAME} ${SRC_LIST})
 
 target_compile_options(${TARGET_NAME} PRIVATE 
-    -Werror 
+    #-Werror 
     -Wall 
     #-Wextra 
     #-Wconversion 
